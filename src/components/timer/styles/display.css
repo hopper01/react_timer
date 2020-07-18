@@ -1,0 +1,74 @@
+.clock{
+    height: 400px;
+    width: 400px;
+    color: gray;
+    border: 18px solid gray;
+    border-radius: 25%;
+    margin: 4rem;
+}
+.display-time{
+    position: relative;
+}
+.display-time .run-time{
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 4rem;
+    font-size: 5rem;
+    font-weight: 500;
+    color: rgb(130, 12, 240);
+    top: 100;
+}
+.display-time h2{
+    position : absolute;
+    width: 100%;
+    text-align: center;
+    top: 4rem;
+    color: rgba(204, 29, 151, 0.835);
+}
+.display-time h1{
+    position : absolute;
+    top: 0;
+    padding-bottom: 2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.initial-input .display-in-time{
+    display: block;
+    margin-top: 3rem;
+}
+.input-time{
+    display: block;
+    align-self: center;
+    margin-top:3rem;
+}
+.input-time input {
+    text-align: center;
+    border: none;
+    font-size: 3rem;
+}
+.display-in-time{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(130, 12, 240);
+}
+ .timer-name{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    padding: 1rem;
+}
+.del-btn{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    margin-right: 35px;
+}
+.del-btn i{
+    font-size: 30px;
+}

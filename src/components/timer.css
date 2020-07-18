@@ -1,0 +1,31 @@
+/* TimerForm */
+.input-name input{
+    margin-top : 3rem;
+    width: 30vw;
+    height: 50px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.input-name input::placeholder{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+.input-name button{
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    margin-left: 2rem;
+    border-radius: 20px;
+    background-color: rgb(248, 194, 150);
+    box-shadow:  rgb(248, 194, 150) 0.5rem 0.5rem inset;
+    color: black;
+    font-weight: 400;
+}
+/* TimerList*/
+.timer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
