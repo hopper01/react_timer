@@ -3,7 +3,7 @@
 An App which maintains `more than one` **Timer.**
 
 ## View on GitHub Pages :
-[Click Here](https://hopper01.github.io/timer_app) 
+[Click Here](https://hopper01.github.io/react_timer) 
 
 ## Motivaion
 It is made for learning simple **React** concepts of `Components`, `states` and `props`.
